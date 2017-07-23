@@ -9,7 +9,7 @@ body {
 }
 header {
   margin-top: 50px;
-  height: 100px;
+  height: 90px;
 }
 
 nav {
@@ -30,18 +30,19 @@ nav {
 .logo h1 {
   font-size: 45px;
   font-family: 'Yellowtail', cursive;  width: 120px;
+  color: #282828;
   float: right;
-  margin: 18px 210px 0px 0px;
+  margin: 19px 210px 0px 0px;
   line-height: 5px;
 }
 
 .logo h2 {
-  font-size: 18px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;  color: #707070;
   width: 210px;
   float: right;
   line-height: 15px;
-  margin: -14px 113px 0px 0px;
+  margin: -16px 113px 0px 0px;
 }
 
 .links {
@@ -61,16 +62,38 @@ nav {
   background: repeating-linear-gradient(45deg, white, white 2px, grey 2px, lightGrey 4px);
 }
 
+main h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  margin-top: 55px;
+  margin-bottom: 0px;
+}
+
+main ul {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  color: #707070;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
 .date_print li {
   display: inline;
 }
 
 .print_img {
-float: right;
+  float: right;
 }
 
 .hero_img {
   width: 100%;
+}
+
+main p {
+  color: #707070;
+  font-size: 25px;
+  
 }
 
 .recipe {
