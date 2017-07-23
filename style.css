@@ -1,0 +1,74 @@
+* {
+  list-style: none;
+}
+
+body {
+  width: 1080px;
+  margin: auto;
+  position: relative;
+}
+header {
+  margin-top: 50px;
+  height: 200px;
+  border-bottom: 15px dashed grey;
+}
+
+nav {
+  height: 300px;
+  float: right;
+}
+
+.logo {
+  height: 70px;
+  width: 390px;
+  display: inline-block;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.logo h1 {
+  font-size: 45px;
+  font-family: 'Yellowtail', cursive;  width: 120px;
+  float: right;
+  margin: 0px;
+  line-height: 5px;
+}
+
+.logo h2 {
+  font-size: 18px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  width: 210px;
+  float: right;
+  line-height: -5px;
+  margin: 0px;
+}
+
+.links {
+  float: right;
+}
+
+.links img {
+  height: 33px;
+}
+
+.links li {
+  display: inline;
+}
+
+.date_print li {
+  display: inline;
+}
+
+.print_img {
+float: right;
+}
+
+.hero_img {
+  width: 100%;
+}
+
+.recipe {
+  background-image: url("img/list-bg.png");
+}
