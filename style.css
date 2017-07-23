@@ -9,8 +9,7 @@ body {
 }
 header {
   margin-top: 50px;
-  height: 200px;
-  border-bottom: 15px dashed grey;
+  height: 100px;
 }
 
 nav {
@@ -32,7 +31,7 @@ nav {
   font-size: 45px;
   font-family: 'Yellowtail', cursive;  width: 120px;
   float: right;
-  margin: 0px;
+  margin: 18px 210px 0px 0px;
   line-height: 5px;
 }
 
@@ -41,8 +40,8 @@ nav {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   width: 210px;
   float: right;
-  line-height: -5px;
-  margin: 0px;
+  line-height: 15px;
+  margin: -14px 113px 0px 0px;
 }
 
 .links {
@@ -55,6 +54,11 @@ nav {
 
 .links li {
   display: inline;
+}
+
+.stripes  {
+  height: 18px;
+  background: repeating-linear-gradient(45deg, white, white 2px, grey 2px, lightGrey 4px);
 }
 
 .date_print li {
