@@ -29,7 +29,8 @@ nav {
 
 .logo h1 {
   font-size: 45px;
-  font-family: 'Yellowtail', cursive;  width: 120px;
+  font-family: 'Yellowtail', cursive;
+  width: 120px;
   color: #282828;
   float: right;
   margin: 19px 210px 0px 0px;
@@ -93,9 +94,62 @@ main ul {
 main p {
   color: #707070;
   font-size: 25px;
-  
+
 }
 
 .recipe {
   background-image: url("img/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1080px;
+  height: 365px;
+  margin-bottom: 50px;
+}
+
+.part1, .part2 {
+  width: 420px;
+  margin-top: 45px;
+  font-family: 'Schoolbell', cursive;
+  font-size: 26px;
+}
+
+.part1{
+  float: left;
+  margin-left: 200px;
+}
+.part2 {
+  float: right;
+}
+
+.part1 li, .part2 li {
+  list-style-image: url("img/checkbox.png");
+}
+
+.about_author {
+  height: 70px;
+  width: 800px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.about_author img {
+  height: 80px;
+}
+
+.about_author h1 {
+  font-size: 25px;
+  font-family: 'Oswald', cursive;
+  width: 120px;
+  color: #282828;
+  float: right;
+  margin: 19px 210px 0px 0px;
+  line-height: 5px;
+}
+
+.about_author p {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;  color: #707070;
+  width: 600px;
+  float: right;
+  margin: -16px 113px 0px 0px;
 }
