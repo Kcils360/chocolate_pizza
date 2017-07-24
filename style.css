@@ -9,8 +9,7 @@ body {
 }
 header {
   margin-top: 50px;
-  height: 200px;
-  border-bottom: 15px dashed grey;
+  height: 90px;
 }
 
 nav {
@@ -30,19 +29,21 @@ nav {
 
 .logo h1 {
   font-size: 45px;
-  font-family: 'Yellowtail', cursive;  width: 120px;
+  font-family: 'Yellowtail', cursive;
+  width: 120px;
+  color: #282828;
   float: right;
-  margin: 0px;
+  margin: 19px 210px 0px 0px;
   line-height: 5px;
 }
 
 .logo h2 {
-  font-size: 18px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;  color: #707070;
   width: 210px;
   float: right;
-  line-height: -5px;
-  margin: 0px;
+  line-height: 15px;
+  margin: -16px 113px 0px 0px;
 }
 
 .links {
@@ -57,18 +58,126 @@ nav {
   display: inline;
 }
 
+.stripes  {
+  height: 18px;
+  background: repeating-linear-gradient(45deg, white, white 2px, grey 2px, lightGrey 4px);
+}
+
+main {
+  margin-bottom: 120px;
+}
+
+main h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  margin-top: 55px;
+  margin-bottom: 0px;
+}
+
+main ul {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  color: #707070;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
 .date_print li {
   display: inline;
 }
 
 .print_img {
-float: right;
+  float: right;
 }
 
 .hero_img {
   width: 100%;
 }
 
+main p {
+  color: #707070;
+  font-size: 25px;
+
+}
+
 .recipe {
   background-image: url("img/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1080px;
+  height: 365px;
+  margin-bottom: 50px;
+}
+
+.part1, .part2 {
+  width: 420px;
+  margin-top: 45px;
+  font-family: 'Schoolbell', cursive;
+  font-size: 26px;
+}
+
+.part1{
+  float: left;
+  margin-left: 200px;
+}
+.part2 {
+  float: right;
+}
+
+.part1 li, .part2 li {
+  list-style-image: url("img/checkbox.png");
+}
+
+.about_author {
+  height: 70px;
+  width: 1080px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.about_author img {
+  height: 80px;
+}
+
+.about_author h1 {
+  font-size: 25px;
+  font-family: 'Oswald', cursive;
+  width: 500px;
+  color: #282828;
+  float: right;
+  margin: 19px 195px 0px 0px;
+  line-height: 5px;
+}
+
+.about_author p {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;  color: #707070;
+  width: 700px;
+  float: right;
+  margin: -50px 0px 0px 0px;
+}
+
+.vanessa {
+  width: 810px;
+}
+
+button {
+  float: right;
+  height: 70px;
+  width: 250px;
+  background-color: darkred;
+  color: white;
+  margin-top: -100px;
+}
+
+footer {
+  color: lightGrey;
+  border-top: 2px solid #707070;
+  text-align: center;
+  color: #707070
+}
+
+footer img {
+  margin-top: -20px;
 }
