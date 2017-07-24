@@ -63,6 +63,10 @@ nav {
   background: repeating-linear-gradient(45deg, white, white 2px, grey 2px, lightGrey 4px);
 }
 
+main {
+  margin-bottom: 120px;
+}
+
 main h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
@@ -127,7 +131,7 @@ main p {
 
 .about_author {
   height: 70px;
-  width: 800px;
+  width: 1080px;
   display: inline-block;
   margin-top: 30px;
 }
@@ -139,17 +143,30 @@ main p {
 .about_author h1 {
   font-size: 25px;
   font-family: 'Oswald', cursive;
-  width: 120px;
+  width: 500px;
   color: #282828;
   float: right;
-  margin: 19px 210px 0px 0px;
+  margin: 19px 195px 0px 0px;
   line-height: 5px;
 }
 
 .about_author p {
   font-size: 20px;
   font-family: 'Oswald', sans-serif;  color: #707070;
-  width: 600px;
+  width: 700px;
   float: right;
-  margin: -16px 113px 0px 0px;
+  margin: -50px 0px 0px 0px;
+}
+
+.vanessa {
+  width: 810px;
+}
+
+button {
+  float: right;
+  height: 70px;
+  width: 250px;
+  background-color: darkred;
+  color: white;
+  margin-top: -100px;
 }
